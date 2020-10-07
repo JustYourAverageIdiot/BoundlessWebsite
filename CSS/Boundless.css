@@ -2,6 +2,25 @@
 
 body {
     height: 100%;
-    margin: 0;
     font-family: 'Oxygen', sans-serif;
+    margin: 0px;
+}
+
+#menu {
+    width: 100%;
+    background-color: purple;
+    height: 50px;
+    display: flex;
+}
+
+#menu a {
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: rgb(102, 0, 102);
+    width: 100px;
+    margin-left: 50px;
+    font-size: 30px;
+    height: 80%;
 }
