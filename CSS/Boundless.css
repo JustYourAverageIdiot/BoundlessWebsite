@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     height: 100%;
     font-family: 'Oxygen', sans-serif;
@@ -12,8 +13,8 @@ body {
 
 #menu {
     width: 100%;
-    background-color: purple;
-    height: 85px;
+    background-color: rgb(72, 0, 72);
+    height: 60px;
     display: flex;
 }
 
@@ -22,32 +23,31 @@ body {
     text-decoration: none;
     color: white;
     display: block;
-    background-color: purple;
+    background-color: rgb(72, 0, 72);
     width: 100px;
-    margin-left: 25px;
+    margin-left: 15px;
     font-size: 30px;
-    height: 50%;
+    height: 65%;
     transition-duration: 0.3s;
     text-align: center;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #menu a:hover {
-    background-color: rgb(102, 0, 102);
+    background-color: rgb(52, 0, 52);
 }
 
 #logo {
-    height: 600px;
+    height: 700px;
     text-align: center;
     color: white;
+    background-image: url(../boundlesspeek.png);
+    background-size: 100%;
 }
 
-#logo video {
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
+#content {
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    color: white
 }
