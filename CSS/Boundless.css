@@ -70,3 +70,27 @@ body {
 #logo a:hover {
     background-color: rgb(15, 15, 71)
 }
+
+#social {
+    background-color: red;
+    width: 20%;
+}
+
+#general {
+    background-color: cyan;
+    width: 60%;
+}
+
+#info1 {
+    background-color: purple;
+    width: 60%;
+}
+
+#content {
+    display: flex;
+}
+
+#peeks {
+    background-color: navy;
+    width: 20%;
+}
