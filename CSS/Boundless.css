@@ -51,3 +51,22 @@ body {
     background-color: rgb(0, 0, 0);
     color: white
 }
+
+#logo a {
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    background-color: rgb(24, 24, 109);
+    color: white;
+    width: 120px;
+    height: 60px;
+    padding-top: 8px;
+    margin-left: 48%;
+    margin-top: 500px;
+    font-size: 40px;
+    transition-duration: 0.3s;
+}
+
+#logo a:hover {
+    background-color: rgb(15, 15, 71)
+}
