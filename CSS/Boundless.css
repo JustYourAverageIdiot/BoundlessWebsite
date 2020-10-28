@@ -77,13 +77,16 @@ body {
 }
 
 #general {
-    background-color: cyan;
+    background-color: whitesmoke;
     width: 60%;
 }
 
-#info1 {
+.info {
     background-color: purple;
     width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 20px;
 }
 
 #content {
@@ -91,8 +94,9 @@ body {
 }
 
 #peeks {
-    background-color: navy;
+    background-color: white;
     width: 20%;
+    color: black;
 }
 
 #socialblock {
@@ -108,7 +112,25 @@ body {
 #socialblock a {
     text-decoration: none;
     display: block;
-    background-color: rgb(72, 0, 72);
-    width: 40%;
+    background-color: purple;
+    width: 60%;
     color: white;
+    margin-left: 20%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-top: 10px;
+    transition-duration: 0.3s;
+}
+
+#socialblock a:hover {
+    background-color: rgb(102, 0, 102)
+}
+
+ul {
+    list-style: none;
+}
+
+.info h1 {
+    text-align: center;
 }
