@@ -39,11 +39,11 @@ body {
 }
 
 #logo {
-    height: 700px;
     text-align: center;
     color: white;
     background-image: url(../boundlesspeek.png);
     background-size: 100%;
+    height: 100%;
 }
 
 #content {
@@ -61,8 +61,8 @@ body {
     width: 120px;
     height: 60px;
     padding-top: 8px;
-    margin-left: 48%;
-    margin-top: 500px;
+    margin-left: 47%;
+    margin-top: 30%;
     font-size: 40px;
     transition-duration: 0.3s;
 }
@@ -77,20 +77,22 @@ body {
 }
 
 #general {
-    background-color: whitesmoke;
+    background-color: rgb(199, 199, 199);
     width: 60%;
 }
 
 .info {
-    background-color: purple;
+    background-color: white;
     width: 60%;
     margin-left: 20%;
     margin-top: 20px;
     border-radius: 20px;
+    color: black;
 }
 
 #content {
     display: flex;
+    height: 100%;
 }
 
 #peeks {
@@ -100,7 +102,7 @@ body {
 }
 
 #socialblock {
-    background-color: whitesmoke;
+    background-color: rgb(199, 199, 199);
     width: 80%;
     margin-left: 10%;
     color: black;
@@ -133,4 +135,13 @@ ul {
 
 .info h1 {
     text-align: center;
+}
+
+#peeks h1 {
+    text-align: center;
+}
+
+#peeks video {
+    padding-left: 30px;
+    padding-top: 20px;
 }
