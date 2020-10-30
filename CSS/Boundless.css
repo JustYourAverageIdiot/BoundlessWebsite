@@ -89,6 +89,7 @@ body {
     margin-top: 20px;
     border-radius: 20px;
     color: black;
+    margin-bottom: 50px;
 }
 
 #content {
@@ -124,6 +125,7 @@ body {
     font-size: 30px;
     margin-top: 10px;
     transition-duration: 0.3s;
+    margin-bottom: 10px;
 }
 
 #socialblock a:hover {
@@ -147,10 +149,23 @@ ul {
     padding-top: 20px;
 }
 
+#peeks img {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
 #logo2 {
     text-align: center;
     color: white;
     background-image: url(../boundlesspeek2.png);
+    background-size: 100%;
+    height: 100%;
+}
+
+#logo3 {
+    text-align: center;
+    color: white;
+    background-image: url(../boundlesspeek5.png);
     background-size: 100%;
     height: 100%;
 }
@@ -172,4 +187,45 @@ ul {
 
 #logo2 a:hover {
     background-color: rgb(52, 0, 52);
+}
+
+#logo3 a {
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    background-color: rgb(72, 0, 72);
+    color: white;
+    width: 120px;
+    height: 60px;
+    padding-top: 8px;
+    margin-left: 47%;
+    margin-top: 30%;
+    font-size: 40px;
+    transition-duration: 0.3s;
+}
+
+#logo3 a:hover {
+    background-color: rgb(52, 0, 52);
+}
+
+#bar {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
+.info video {
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+
+.info img {
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+
+#Colophone {
+    color: black;
+    background-color: white;
+    width: 100%;
 }
